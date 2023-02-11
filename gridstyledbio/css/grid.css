@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+div {
+    /* border: 1px solid red; */
+}
+.container {
+    display: grid;
+    grid: repeat(8, 25px) / repeat(3, 1f);
+    grid-auto-flow: column;
+    gap: 10px;
+    max-width: 580px;
+    margin: auto;
+}
+
+.item {
+    color: blue;
+}
+
+.fillable {
+    margin: 10px 0 0 0;
+    border-bottom: 1px solid blue;
+    grid-column: 1/4;
+    text-indent: 5px;
+}
+
+.fillable-header {
+    grid-row: 2/3;
+    text-align: center;
+}
+
+.educ-head {
+    grid-column: 1;
+    grid-row: 1/2;
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+    text-indent: 5px;
+}
+
+.empty-head {
+    grid-column: 1;
+}
+
+.nsa-head {
+    grid-column: 2;
+}
+
+.yg-head {
+    grid-column: 3;
+}
+
+.elem-row {
+    grid-row: 3/4;
+}
+
+.hs-row {
+    grid-row: 4/5;
+}
+
+.voc-row {
+    grid-row: 5/6;
+}
+
+.coll-row {
+    grid-row: 6/7;
+}
+
+.cors-row {
+    grid-row: 7/8;
+    text-indent: 2rem;
+}
+
+.spc-row {
+    grid-row: 8/9;
+}

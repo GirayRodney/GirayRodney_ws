@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(../assets/fonts/roboto-regular.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Robot-Italic';
+    src: url(../assets/fonts/Roboto/Roboto-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'Noto Serif Toto';
+    src: url(https://fonts.gstatic.com/s/notoseriftoto/v1/Ktk6ALSMeZjqPnXk1rCkHYHNtwvtHItpjRP74dHhCx_Ip-Gp5g.woff2) format('woff2');
+}
+
+.lead {
+    font-family: 'Poppins';
+}
+
+.sub-lead {
+    font-family: 'Merriweather';
+    font-weight: 300;
+}
+
+.img {
+    border: 5px solid red;
+    float: left;
+}
+
+.img1, .img2 {
+    border: 5px solid green;
+} 
+
+.floated {
+    background-color: red;
+    width: 100px;
+    border: 5px solid red;
+    float: right;
+}
+
+.refernce {
+    border: 5px solid green;
+    /* clear: both; */
+}
+
+.pos1 {
+    border: 5px solid red;
+    position: relative;
+    top: 5px;
+    left: calc(50vw - (100px / 2));
+}
+
+.pos2 {
+    border: 5px solid green;
+    position: relative;
+    /* bottom: 50px; */
+    /* top: 50px; */
+    /* top: -50px; */
+    /* left: 50px; */
+    /* right: 50px; */
+    /* left: -50px; */
+
+    top: -35px;
+    left: 100px;
+    width: 50px;
+    height: 50px;
+}
+
+.pos3 {
+    border: 5px solid blue;
+}
+
+.abs1 {
+    border: 5px solid green;
+    display: block;
+}
+
+.abs2 {
+    border: 5px solid red;
+    position: fixed;
+    top: calc(50vh - (100px / 2));
+    left: calc(50vw - (100px / 2));
+}
+
+.abs3 {
+    border: 5px solid blue;
+}
+
+.preferendis {
+    /* display: none; */
+    visibility: hidden;
+}

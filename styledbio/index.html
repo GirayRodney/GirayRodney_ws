@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      #biodata-header {
+        text-align: center; margin-top: 5px;
+      }
+      #outer-table {
+        max-width: 580px; margin:auto;
+      }
+      .heading-part {
+        background-color: black;
+        color: white;
+      }
+      .txt-center {
+        text-align: center;
+      }
+      .vrt-align-bot {
+        vertical-align: bottom;
+      }
+      .bdr-1s-black {
+        border: 1px solid black;
+      }
+      .bdr-bot-1s-black {
+        border-bottom: 1px solid black;
+      }
+      .m-t-0 {
+        margin-top: 0px;
+      }
+      .m-t-10 {
+        margin-top: 10px;
+      }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      th,
+      td {
+        font-size: smaller;
+        line-height: 1.5;
+      }
+      tbody {
+        border: 1px solid black;
+        border: 0px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse !important;
+      }
+    </style>
+    <h3 id="biodata-header">BIO-DATA</h3>
+    <table id="outer-table">
+      <tbody >
+        <tr width="100%">
+          <td>
+            <table>
+              <thead>
+                <tr height="0px">
+                  <td width="20%"></td>
+                  <td width="20%"></td>
+                  <td width="20%"></td>
+                  <td width="20%"></td>
+                  <td width="20%"></td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td colspan="3" class="heading-part">
+                    PERSONAL DETAILS
+                  </td>
+                  <td colspan="1"></td>
+                  <!-- <td></td> -->
+                  <td rowspan="5" class="bdr-1s-black"></td>
+                </tr>
+                <tr>
+                  <td colspan="3" class="bdr-bot-1s-black">
+                    <small>Position Desired:</small>
+                  </td>
+                  <!-- <td></td> -->
+                  <td colspan="1" class="bdr-bot-1s-black">
+                    Date:
+                  </td>
+                  <!-- <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="3" class="bdr-bot-1s-black">
+                    Name:
+                  </td>
+                  <!-- <td></td> -->
+                  <td colspan="1" class="bdr-bot-1s-black">
+                    Sex:
+                  </td>
+                  <!-- <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="4" class="bdr-bot-1s-black">
+                    City Address:
+                  </td>
+                  <!-- <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="4" class="bdr-bot-1s-black">
+                    Provincial Address:
+                  </td>
+                  <!-- <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="3" class="bdr-bot-1s-black">
+                    Date of Birth:
+                  </td>
+                  <!-- <td></td> -->
+                  <td colspan="2" class="bdr-bot-1s-black">
+                    Place:
+                  </td>
+                  <!-- <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="3" class="bdr-bot-1s-black">
+                    Civil Status:
+                  </td>
+                  <!-- <td></td> -->
+                  <td colspan="2" class="bdr-bot-1s-black">
+                    Citizenship:
+                  </td>
+                  <!-- <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="3" class="bdr-bot-1s-black">
+                    Height:
+                  </td>
+                  <!-- <td></td> -->
+                  <td colspan="2" class="bdr-bot-1s-black">
+                    Weight:
+                  </td>
+                  <!-- <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="3" class="bdr-bot-1s-black">
+                    Religion:
+                  </td>
+                  <!-- <td></td> -->
+                  <td colspan="2" class="bdr-bot-1s-black">
+                    Telephone:
+                  </td>
+                  <!-- <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="3" class="bdr-bot-1s-black">
+                    Color of Hair:
+                  </td>
+                  <!-- <td></td> -->
+                  <td colspan="2" class="bdr-bot-1s-black">
+                    Color of Eyes:
+                  </td>
+                  <!-- <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="3" class="bdr-bot-1s-black">
+                    Spouse:
+                  </td>
+                  <!-- <td></td> -->
+                  <td colspan="2" class="bdr-bot-1s-black">
+                    Occupation:
+                  </td>
+                  <!-- <td></td>
+                <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="5" class="bdr-bot-1s-black">
+                    Address:
+                  </td>
+                  <!-- <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="5" class="bdr-bot-1s-black">
+                    Number of Children, their names and date of birth:
+                  </td>
+                  <!-- <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="5" class="bdr-bot-1s-black">
+                    &nbsp;
+                  </td>
+                  <!-- <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="5" class="bdr-bot-1s-black">
+                    &nbsp;
+                  </td>
+                  <!-- <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="3" class="bdr-bot-1s-black">
+                    Father's Name:
+                  </td>
+                  <!-- <td></td> -->
+                  <td colspan="2" class="bdr-bot-1s-black">
+                    Occupation:
+                  </td>
+                  <!-- <td></td> -->
+                  <!-- <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="3" class="bdr-bot-1s-black">
+                    Mother's Name
+                  </td>
+                  <!-- <td></td> -->
+                  <td colspan="2" class="bdr-bot-1s-black">
+                    Occupation:
+                  </td>
+                  <!-- <td></td> -->
+                  <!-- <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="5" class="bdr-bot-1s-black">
+                    Languages od Dialects ayou can speak or write:
+                  </td>
+                  <!-- <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="5" class="bdr-bot-1s-black">
+                    Person to be contacted in case of emergency:
+                  </td>
+                  <!-- <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                  <td colspan="5" class="bdr-bot-1s-black">
+                    His/Her Address and Telephone:
+                  </td>
+                  <!-- <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> -->
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <table class="m-t-10">
+              <thead>
+                <tr height="0px">
+                  <td width="20%"></td>
+                  <td width="40%"></td>
+                  <td width="40%"></td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td colspan="2" class="heading-part">
+                    EDUCATIONAL BACKGROUND
+                  </td>
+                  <td colspan="3">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td class="bdr-bot-1s-black">&nbsp;</td>
+                  <td
+                  class="txt-center bdr-bot-1s-black"
+                  >
+                    Name & Address of School
+                  </td>
+                  <td
+                    class="txt-center bdr-bot-1s-black"
+                  >
+                    Year Graduated
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" class="bdr-bot-1s-black">
+                    Elementary:
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" class="bdr-bot-1s-black">
+                    High School:
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" class="bdr-bot-1s-black">
+                    Vocational:
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" class="bdr-bot-1s-black">
+                    College:
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" class="bdr-bot-1s-black">
+                    &emsp;&emsp;Course:
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" class="bdr-bot-1s-black">
+                    Special Skills:
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <table class="m-t-10">
+              <thead>
+                <tr height="0px">
+                  <td width="15%"></td>
+                  <td width="15%"></td>
+                  <td width="35%"></td>
+                  <td width="35%"></td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td colspan="3" class="heading-part">
+                    EMPLOYMENT RECORD
+                  </td>
+                </tr>
+                <tr class="txt-center">
+                  <td class="bdr-bot-1s-black">From</td>
+                  <td class="bdr-bot-1s-black">To</td>
+                  <td class="bdr-bot-1s-black">Position</td>
+                  <td class="bdr-bot-1s-black">Company</td>
+                </tr>
+                <tr>
+                  <td colspan="4" class="bdr-bot-1s-black">
+                    &nbsp;
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="4" class="bdr-bot-1s-black">
+                    &nbsp;
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="4" class="bdr-bot-1s-black">
+                    &nbsp;
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="4" class="bdr-bot-1s-black">
+                    &nbsp;
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <table class="m-t-10">
+              <thead>
+                <tr height="0px">
+                  <td width="15%"></td>
+                  <td width="15%"></td>
+                  <td width="35%"></td>
+                  <td width="35%"></td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td colspan="3" class="heading-part">
+                    CHARACTER REFERENCES
+                  </td>
+                </tr>
+                <tr class="txt-center">
+                  <td colspan="2" class="bdr-bot-1s-black">
+                    Name
+                  </td>
+                  <td class="bdr-bot-1s-black">Occupation</td>
+                  <td class="bdr-bot-1s-black">Address</td>
+                </tr>
+                <tr>
+                  <td colspan="4" class="bdr-bot-1s-black">
+                    &nbsp;
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="4" class="bdr-bot-1s-black">
+                    &nbsp;
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="4" class="bdr-bot-1s-black">
+                    &nbsp;
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="4" class="bdr-bot-1s-black">
+                    &nbsp;
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <table class="m-t-0">
+              <thead>
+                <tr height="0px">
+                  <td width="30%"></td>
+                  <td width="10%"></td>
+                  <td width="20%"></td>
+                  <td width="10%"></td>
+                  <td width="30%"></td>
+                </tr>
+              </thead>
+              <tbody >
+                <tr>
+                  <td colspan="2">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td class="bdr-bot-1s-black">
+                    Res. Cert. No A:
+                  </td>
+                  <td></td>
+                  <td
+                    rowspan="6"
+                    class="bdr-1s-black txt-center vrt-align-bot"
+                  >
+                    Right Thumb Mark
+                  </td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td class="bdr-bot-1s-black">Issued At:</td>
+                  <td></td>
+                  <!-- <td></td> -->
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td class="bdr-bot-1s-black">Issued On:</td>
+                  <td></td>
+                  <!-- <td></td> -->
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td class="bdr-bot-1s-black">SSS:</td>
+                  <td></td>
+                  <!-- <td></td> -->
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td class="bdr-bot-1s-black">TIN:</td>
+                  <td></td>
+                  <!-- <td></td> -->
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td class="bdr-bot-1s-black">NBI No:</td>
+                  <td></td>
+                  <!-- <td></td> -->
+                  <td></td>
+                  <td class="bdr-bot-1s-black"></td>
+                </tr>
+                <tr>
+                  <td class="bdr-bot-1s-black">Passport No:</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td class="txt-center">Applicant Signature</td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

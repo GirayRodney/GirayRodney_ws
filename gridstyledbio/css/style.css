@@ -1,0 +1,49 @@
+html {
+    color: #2713bd;
+}
+#biodata-header {
+  text-align: center;
+  margin-top: 5px;
+}
+#outer-table {
+  max-width: 580px;
+  margin: auto;
+}
+.heading-part {
+  background-color: #2713bd;
+  color: white;
+}
+.txt-center {
+  text-align: center;
+}
+.vrt-align-bot {
+  vertical-align: bottom;
+}
+.bdr-1s-black {
+  border: 1px solid #2713bd;
+}
+.bdr-bot-1s-black {
+  border-bottom: 1px solid #2713bd;
+}
+.m-t-0 {
+  margin-top: 0px;
+}
+.m-t-10 {
+  margin-top: 10px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+th,
+td {
+  font-size: smaller;
+  line-height: 1.5;
+}
+tbody {
+  border: 1px solid black;
+  border: 0px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse !important;
+}

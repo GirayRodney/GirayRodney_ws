@@ -1,0 +1,8 @@
+.ds-inline {
+    display: inline;
+    padding-right: 20px;
+}
+
+.ds-inline a {
+    text-decoration: none;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container" style="border: 3px solid red;">
+      <!-- Main Content -->
+      <p>for forms use <code>.form-label, .form-control</code></p>
+      <form action="#" class="border border-success border-3">
+        <div class="mb-3 mt-3">
+          <label for="email" class="form-label">Email:</label>
+          <input type="email" id="email" class="form-control form-control-sm" name="email" placeholder="Enter email">
+          <input type="email" id="email" class="form-control form-control-lg" name="email" placeholder="Enter email">
+        </div>
+        <div class="mb-3">
+          <label for="pwd" class="form-label">Password:</label>
+          <input type="password" class="form-control" id="pwd" name="pwd" placeholder="Enter password">
+        </div>
+        <div class="mb-3">
+          <label for="cmpId" class="form-label">Company Id:</label>
+          <input type="text" class="form-control" id="cmpId" name="cmpId" placeholder="Company Id" value="KODEGO" readonly>
+        </div>
+        <div class="mb-3">
+          <label for="empId" class="form-label">Employee Id:</label>
+          <input type="text" class="form-control" id="empId" name="empId" placeholder="Employee Id" value="KDG20221128" disabled>
+        </div>
+        <div class="mb-3">
+          <label for="empId" class="form-label">Employee Id:</label>
+          <input type="text" class="form-control" id="empId" name="empId" placeholder="Employee Id" value="KDG20221128" disabled>
+        </div>
+        <div class="mb-3">
+          <label for="confirm" class="form-label">Confirmation:</label>
+          <input type="text" class="form-control-plaintext" id="confirm" name="confirm" placeholder="confirm intent by typing your name">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    <!-- Bootstrap 5 -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
